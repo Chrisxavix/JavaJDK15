@@ -3,6 +3,20 @@ package UniversityJava.Exercices.Metodos;
 public class Aritmetica {
     int a, b;
 
+    // Constructor vacío
+    //En la creación del objeto no pide argumentos
+    /*public Aritmetica() {
+        System.out.println("Test Constructor");
+    }*/
+
+    //Sobrecarga de constructores
+    //En la creación del objeto pide argumentos
+    /*public Aritmetica(int arg1, int arg2) {
+        this.a = arg1;
+        this.b = arg2;
+        System.out.println("Test Sobrecarga");
+    }*/
+
     public void sumar() {
         int resultado = a + b;
         System.out.println("La suma es: " + resultado);

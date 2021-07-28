@@ -9,7 +9,6 @@ public class CajaMain {
         caja0.alto = 7;
         caja0.profundo = 7;
         caja0.calcularVolumen();
-        System.out.println("Test Commit v2");
 
         // Con Valores SobreCargados en el constructor
         /*Caja caja1 = new Caja(8, 7, 7);

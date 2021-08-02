@@ -7,6 +7,8 @@ public class Persona {
     protected int edad;
     protected String direccion;
 
+    /* Cuando existen varios constructores se lo conoce como
+       sobrecarga de constructores */
     public Persona(){
 
     }

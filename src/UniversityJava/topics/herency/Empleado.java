@@ -8,11 +8,24 @@ public class Empleado extends Persona{
     /* Una variable static se asocia con la clase y no con los objetos */
     private static int contadorEmpleado;
 
-    public Empleado(String nombre, double sueldo) {
-        super(nombre);
+    /* Sobrecarga de constructores */
+    public Empleado() {
         this.idEmpleado = ++Empleado.contadorEmpleado;
         /* o se puede usar
         this.idEmpleado = ++contadorEmpleado; */
+    }
+
+    public Empleado(String nombre, double sueldo) {
+        /* Sobrecarga de constructores
+        This(); y super(); no deben ir ambos, al usar this estoy
+         llamando al constructor sin parámetros para validar el this.idEmpleado */
+
+        this();
+        /*super(nombre);
+         Entonces para reemplazar al super(nombre) uso
+         this.nombre que trade desde Persona, mismo que está
+          declarado como protected para usar al hacer herencia */
+        this.nombre = nombre;
         this.sueldo = sueldo;
     }
 

@@ -1,0 +1,11 @@
+Similar a una clase
+    Contiene varios elementos definidos dentro de la enumeración
+    Lista de valores constantes
+
+En vez de usar:
+public class Dias {
+}
+
+Se usa:
+public enum Dias {
+}

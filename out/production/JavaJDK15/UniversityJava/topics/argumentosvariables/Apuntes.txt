@@ -1,0 +1,2 @@
+Métodos con parámetros ilimitados
+    Siempre será el último cuando se combina

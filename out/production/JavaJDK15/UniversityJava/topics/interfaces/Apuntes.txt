@@ -1,0 +1,9 @@
+Interfaces
+    Parecida a una clase asbtracta
+    Es un nuevo tipo en Java
+    Si se agrega atributos a una interfaz van a ser constantes
+
+    Diferencia de clase abstracta a una interfaz
+    Cuando hay herencia de padre a hijos se usa abstract
+    Una interfaz se usa más para el comportamiento de las clases
+    Se debe asignar valores, ya que una interface no tiene constructores

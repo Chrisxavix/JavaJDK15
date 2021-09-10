@@ -1,0 +1,10 @@
+Es como reemplazar a los array, ya que en Java se debe inicializar.
+Usando List:
+    Permite llenarlo dinámicamente y en un orden.
+    Se duplican elementos.
+    Tarda más que un Set por seguir un orden.
+
+Usando Set:
+    No sigue un orden de llenado de dinámico.
+    Más rápido.
+    No permite duplicados.

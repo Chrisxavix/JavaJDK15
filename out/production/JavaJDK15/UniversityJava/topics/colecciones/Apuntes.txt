@@ -8,3 +8,6 @@ Usando Set:
     No sigue un orden de llenado de dinámico.
     Más rápido.
     No permite duplicados.
+
+Usando Map:
+    Llave y valor.

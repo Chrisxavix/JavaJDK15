@@ -1,6 +1,0 @@
-JavaBeans, se debe cumplir:
-    Constructor vacío de tipo público
-    Los atributos definidos dentro de la clase javaBeans deben ser privados
-    Cada atributo privado debe tener get y set asociado
-    Implementar una interfaz serialization, que permite enviar la clase
-        entre diferentes equipos.

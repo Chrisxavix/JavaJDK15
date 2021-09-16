@@ -7,8 +7,13 @@ public class ColeccionesList {
         /* Forma de declarar
            importar de util el List */
         List newList = new ArrayList();
-
+        newList.add("valueOne");
+        System.out.println("El portador de la casa azul: " + newList.get(0));
+        System.out.println("");
         /* Sintaxis recomendad por el IDE */
+        for (Object ele : newList) {
+            System.out.println("asdmlasdk" + ele) ;
+        }
         List<String> miLista = new ArrayList<String>();
         /*Usando List y add se va guardando en orden*/
         miLista.add("Lunes");
@@ -24,6 +29,7 @@ public class ColeccionesList {
            información sobre una posición, se usa:
            miLista.get(0) */
         System.out.println("Ingresando a un valor: " + miLista.get(0));
+
 
         /*Recorre con foreach, opción 1*/
         System.out.println("");

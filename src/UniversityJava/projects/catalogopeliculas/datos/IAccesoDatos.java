@@ -8,7 +8,7 @@ import UniversityJava.projects.catalogopeliculas.excepciones.LecturaDatosEx;
 import java.util.List;
 
 public interface IAccesoDatos {
-    boolean existen(String nombreRecurso) throws AccesoDatosEx;
+    boolean existe(String nombreRecurso) throws AccesoDatosEx;
 
     List<Pelicula> listar(String nombreRecurso) throws LecturaDatosEx;
 
